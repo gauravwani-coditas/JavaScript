@@ -4,10 +4,10 @@ let banana;
 let orange;
 
 
-const num1 = 1;
-const num2 = 2;
-const num3 = 3;
-const num4 = 4;
+const employeeName = "Suyash" ;
+const employeePosition = "Associate Software Engineer Intern";
+const employeeSalary = 11000;
+const employeeDepartment = "Delivery-Product";
 
 const firstName = "Gaurav";
 const lastName = "Wani";
