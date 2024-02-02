@@ -100,9 +100,6 @@ console.log(countEasy);
 countEasy = sampleString3.match(/Easy/g).length;
 console.log(countEasy);
 
-let sampleString4 = 'I earn 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro from freelancing, and 50000 euro from trading'
-const words = sampleString4.split(' ');
-
 
 
 
