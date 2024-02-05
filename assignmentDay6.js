@@ -94,3 +94,4 @@ console.log(!(false) );
 console.log(!(4 > 3 && 10 < 12) );
 console.log(!(4 > 3 && 10 > 12));
 console.log(4 === '4');
+console.log(!"python".includes('on') && !"dragon".includes('on'));
