@@ -104,5 +104,6 @@ else{
 age >= 18 ? age>=24 ? console.log('A'):console.log('B'):age>=30 ? console.log('C') : console.log('D');
 
 // 11. What will be the result of the following nested ternary expression:
- let result = true ? false ? true ? 'A' : 'B' : false ? 'C' : 'D' : 'E'; //true
+ let result = true ? false ? true ? 'A' : 'B' : false ? 'C' : 'D' : 'E'; 
+ //result is D.
  console.log(result);
