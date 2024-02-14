@@ -53,8 +53,8 @@ console.log('Square using myMap : '+myMap(array,(number) => number**2));
 const myReduce = (array,getSum) => {
 
     let accumulator = array[0];
-    for (let i = 1; i < array.length; i++) {
-        accumulator = getSum(accumulator, array[i]);
+    for (let index = 1; index < array.length; index++) {
+        accumulator = getSum(accumulator, array[index]);
     }
    return accumulator;
 }
