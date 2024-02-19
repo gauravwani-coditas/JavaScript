@@ -12,11 +12,12 @@ for(let rowIndex = 0;rowIndex < mid;rowIndex++){
         if(colIndex1 === mid-rowIndex-1){
             row = row + "*";
         }
+        else if(colIndex1 === mid+rowIndex-1){
+            row = row + "*";
+        }
         else{
             row = row + " ";
         }
-
-
     }
 
    console.log(row);
