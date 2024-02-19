@@ -1,17 +1,24 @@
 
-let rowVal = 5;
+let rowVal = 10;
+const mid = parseInt(rowVal/2);
 
-for(let rowIndex = 0;rowIndex < rowVal;rowIndex++){
+for(let rowIndex = 0;rowIndex < mid;rowIndex++){
 
     let row = '';
-    let colIndex1 = 0;
+    
 
-    while(colIndex1 < rowVal-rowIndex){
+    for(let colIndex1 = 0;colIndex1<10;colIndex1++){
+    
+        if(colIndex1 === mid-rowIndex-1){
+            row = row + "*";
+        }
+        else{
+            row = row + " ";
+        }
 
-        row = row+" ";
-        colIndex1++;
-   }
-   row = row+"*";
+
+    }
+
    console.log(row);
 
 }
