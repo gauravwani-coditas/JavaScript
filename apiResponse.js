@@ -17,7 +17,7 @@ const countriesUrl = "https://restcountries.com/v2/all";
 
 const countriesPromise = fetch(countriesUrl);
 
-let numberOfUniqueLanguages;
+
 
 countriesPromise.then((response)=>{
     return response.json()
@@ -40,7 +40,7 @@ countriesPromise.then((response)=>{
 
         // Read the countries api and count total number of languages in the world used as officials.
 
-        numberOfUniqueLanguages= languagesSet.size;
+        const numberOfUniqueLanguages = languagesSet.size;
         console.log(`Number of Official languages : ${numberOfUniqueLanguages}`);
     }
 ).catch((error)=>{
